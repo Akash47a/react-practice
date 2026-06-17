@@ -1,0 +1,6 @@
+{"courses":[{"id":1,"image": "http://localhost:3000/assets/sta-je-html.jpg","name":"html","price":199},
+        {"id":2,"image":"http://localhost:3000/assets/css.png","name":"css","price":199},
+        {"id":3,"image":"http://localhost:3000/assets/js.jpg","name":"javascript","price":499},
+        {"id":4,"image":"http://localhost:3000/assets/react.jpg","name":"react","price":699}
+    ]
+}
