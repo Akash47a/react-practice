@@ -8,7 +8,6 @@ const useFetch=(url)=>{
 
 
     useEffect(()=>{
-        setTimeout(()=>{
         fetch(url)
         .then((respond)=>{
             if(!respond.ok){
@@ -18,8 +17,8 @@ const useFetch=(url)=>{
             return respond.json()})
         .then((data)=>{setData(data)})
         .catch((error)=>{setError(error.message)})
-        },1000)
-    })
+        })
+
     return [data,error]
 }
 

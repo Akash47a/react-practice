@@ -16,7 +16,6 @@ function Course(props) {
             <p>{perchased?props.price-(props.price*perchased)/100:props.price}</p>
             <button onClick={()=> {discond(20)}}>discount</button>
             <p>{perchased?props.name+" perchased with "+perchased+"% discount":"buy fast"}</p>
-            <button onClick={()=>props.delete(props.id)}>Delete</button>
         </div>
     );
 }
